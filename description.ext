@@ -522,6 +522,17 @@ class CfgFunctions
 		#include "f\spect\functions.hpp"
 
 	};
+	
+	class bub
+	{
+		class util
+		{
+			class addLaptopAction
+			{
+				file = "bub\bub_fnc_addLaptopAction.sqf"
+			}
+		}
+	}
 };
 
 
