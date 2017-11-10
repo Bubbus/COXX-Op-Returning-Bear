@@ -659,7 +659,7 @@ switch (_typeofUnit) do
 
 	};
 	
-	case "":
+	case "sniper":
 	{
 		removeAllWeapons this;
 		removeAllItems this;

@@ -8,18 +8,18 @@ class EditorData
 	toggles=554;
 	class ItemIDProvider
 	{
-		nextID=1710;
+		nextID=1756;
 	};
 	class MarkerIDProvider
 	{
-		nextID=2;
+		nextID=3;
 	};
 	class Camera
 	{
-		pos[]={1339.4772,370.53149,4773.9912};
-		dir[]={0.46602443,-0.80191839,0.3741819};
-		up[]={0.62531078,0.59745449,0.50207651};
-		aside[]={0.62615418,1.0437798e-006,-0.7798447};
+		pos[]={1446.0258,18.470749,1683.7317};
+		dir[]={-0.11439645,-0.60361868,-0.78918499};
+		up[]={-0.086603574,0.79723114,-0.597449};
+		aside[]={-0.98975021,-1.8866267e-006,0.14346981};
 	};
 };
 binarizationWanted=0;
@@ -75,13 +75,30 @@ addons[]=
 	"CUP_Editor_Buildings_Config",
 	"A3_Structures_F_EPA_Items_Medical",
 	"rhsusf_c_weapons",
-	"A3_Structures_F_EPC_Items_Electronics"
+	"A3_Structures_F_EPC_Items_Electronics",
+	"A3_Weapons_F_Rifles_MX",
+	"ace_ballistics",
+	"A3_Weapons_F_Acc",
+	"ace_laserpointer",
+	"A3_Weapons_F",
+	"ace_smallarms",
+	"A3_Weapons_F_Pistols_P07",
+	"acre_main",
+	"rhsusf_c_troops",
+	"ace_compat_rhs_usf3",
+	"ace_nightvision",
+	"A3_Weapons_F_Items",
+	"ace_attach",
+	"ace_chemlights",
+	"A3_Weapons_F_Mark",
+	"Cre8ive_Radiation",
+	"A3_Structures_F_Mark_Items_Military"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=44;
+		items=56;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -378,6 +395,89 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item44
+		{
+			className="ace_ballistics";
+			name="ACE3 - Ballistics";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item45
+		{
+			className="ace_laserpointer";
+			name="ACE3 - Laser Pointer";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item46
+		{
+			className="ace_smallarms";
+			name="ACE3 - Small Arms";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item47
+		{
+			className="acre_main";
+			name="ACRE2 - Main";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item48
+		{
+			className="rhsusf_c_troops";
+			name="RHSUSF Infantry & Equipment";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+		};
+		class Item49
+		{
+			className="ace_compat_rhs_usf3";
+			name="ACE3 - RHS USF Compatibility";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item50
+		{
+			className="ace_nightvision";
+			name="ACE3 - Night Vision";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item51
+		{
+			className="ace_attach";
+			name="ACE3 - Attach";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item52
+		{
+			className="ace_chemlights";
+			name="ace_chemlights";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item53
+		{
+			className="A3_Weapons_F_Mark";
+			name="Arma 3 Marksmen - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item54
+		{
+			className="Cre8ive_Radiation";
+			name="Cre8ive - Radiation Hazards";
+			author="Cre8or";
+		};
+		class Item55
+		{
+			className="A3_Structures_F_Mark";
+			name="Arma 3 Marksmen - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=1116085;
@@ -444,7 +544,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=427;
+		items=436;
 		class Item0
 		{
 			dataType="Logic";
@@ -24225,7 +24325,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{[""sniper"",this] call f_fnc_assignGear;}";
+						init="call{[""fal"",this] call f_fnc_assignGear;}";
 					};
 					id=1686;
 					type="O_Soldier_A_F";
@@ -24934,7 +25034,7 @@ class Mission
 			};
 			id=1706;
 			type="Land_Laptop_device_F";
-			atlOffset=0.68869019;
+			atlOffset=0.53826904;
 		};
 		class Item426
 		{
@@ -24954,7 +25054,6 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						isPlayer=1;
 					};
 					id=1709;
 					type="O_Soldier_A_F";
@@ -25027,6 +25126,441 @@ class Mission
 			};
 			id=1708;
 			atlOffset=0.00033569336;
+		};
+		class Item427
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1450.4194,17.223007,1685.0789};
+						angles[]={0,3.6651917,0};
+					};
+					side="West";
+					flags=3;
+					class Attributes
+					{
+						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MX_F";
+								optics="optic_Aco";
+								flashlight="acc_pointer_IR";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="hgun_P07_F";
+								class primaryMuzzleMag
+								{
+									name="16Rnd_9x21_Mag";
+									ammoLeft=17;
+								};
+							};
+							class uniform
+							{
+								typeName="U_B_CombatUniform_mcam";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="30Rnd_65x39_caseless_mag";
+										count=2;
+										ammoLeft=30;
+									};
+								};
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+									class Item1
+									{
+										name="ACE_DefusalKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_PlateCarrier1_rgr";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=6;
+									class Item0
+									{
+										name="30Rnd_65x39_caseless_mag";
+										count=9;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="16Rnd_9x21_Mag";
+										count=2;
+										ammoLeft=17;
+									};
+									class Item2
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShell";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="Chemlight_green";
+										count=2;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_AssaultPack_mcamo_Ammo";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=8;
+									class Item0
+									{
+										name="30Rnd_65x39_caseless_mag";
+										count=6;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="100Rnd_65x39_caseless_mag";
+										count=1;
+										ammoLeft=100;
+									};
+									class Item2
+									{
+										name="HandGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="MiniGrenade";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="1Rnd_HE_Grenade_shell";
+										count=3;
+										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="3Rnd_HE_Grenade_shell";
+										count=1;
+										ammoLeft=3;
+									};
+									class Item6
+									{
+										name="10Rnd_338_Mag";
+										count=2;
+										ammoLeft=10;
+									};
+									class Item7
+									{
+										name="20Rnd_762x51_Mag";
+										count=2;
+										ammoLeft=20;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=4;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="rhs_googles_yellow";
+							hmd="NVGoggles";
+							headgear="H_HelmetB_grass";
+						};
+					};
+					id=1728;
+					type="B_Soldier_A_F";
+					atlOffset=0.25302887;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=1727;
+			atlOffset=0.25302887;
+		};
+		class Item428
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1448.1893,17.602484,1682.0415};
+				angles[]={-0,0,6.2818937};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1730;
+			type="Cre8ive_Item_GeigerScout";
+			atlOffset=10.702753;
+		};
+		class Item429
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1448.2009,17.602598,1681.9265};
+				angles[]={0,4.9741888,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1731;
+			type="Cre8ive_Item_GeigerScout";
+			atlOffset=10.702882;
+		};
+		class Item430
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1448.0917,17.602703,1682.049};
+				angles[]={-0,0,6.2818937};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1732;
+			type="Cre8ive_Item_Med_KIO3";
+			atlOffset=10.702846;
+		};
+		class Item431
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1448.0422,17.602663,1682.0579};
+				angles[]={0,3.6651917,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1733;
+			type="Cre8ive_Item_Med_KIO3";
+			atlOffset=10.702742;
+		};
+		class Item432
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1448.1066,16.959002,1681.473};
+				angles[]={0,0,6.2818937};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{if (isServer) then " \n "{ " \n "    [this] call bub_fnc_addDefuseAction; " \n "    bombs pushBack this;" \n "};}";
+			};
+			id=1744;
+			type="Cre8ive_RadioactiveBarrel";
+			atlOffset=10.720397;
+		};
+		class Item433
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1448.1168,17.857237,1681.4785};
+				angles[]={0,5.7595868,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1749;
+			type="Land_ShotTimer_01_F";
+			atlOffset=0.85939217;
+		};
+		class Item434
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1448.11,18.712233,1681.541};
+				angles[]={0,0,6.2818937};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=1753;
+			type="Cre8ive_RadiationNode";
+			atlOffset=0.99048042;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="RN_RadiusOutside";
+					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item435
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={1445.2352,17.123726,1682.35};
+				angles[]={0,0,6.2818937};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{if (isServer) then " \n "{ " \n "    [this] call bub_fnc_addDefuseAction; " \n "    bombs pushBack this;" \n "};}";
+			};
+			id=1755;
+			type="rhs_7ya37_1_single";
+			atlOffset=10.732687;
 		};
 	};
 };

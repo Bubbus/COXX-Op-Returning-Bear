@@ -531,6 +531,10 @@ class CfgFunctions
 			{
 				file = "bub\bub_fnc_addLaptopAction.sqf"
 			}
+			class addDefuseAction
+			{
+				file = "bub\bub_fnc_addDefuseAction.sqf"
+			}
 		}
 	}
 };
