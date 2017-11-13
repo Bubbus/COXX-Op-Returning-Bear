@@ -388,338 +388,338 @@ switch (_typeofUnit) do
 
 	case "akm":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_Guerilla1_1";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		this addItemToUniform "rhs_mag_rgo";
-		this addItemToUniform "rhs_mag_rdg2_white";
-		this addVest "V_Chestrig_oli";
-		for "_i" from 1 to 6 do {this addItemToVest "rhs_30Rnd_762x39mm";};
-		this addHeadgear "H_Booniehat_khk";
+		_unit forceAddUniform "U_IG_Guerilla1_1";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		_unit addItemToUniform "rhs_mag_rgo";
+		_unit addItemToUniform "rhs_mag_rdg2_white";
+		_unit addVest "V_Chestrig_oli";
+		for "_i" from 1 to 6 do {_unit addItemToVest "rhs_30Rnd_762x39mm";};
+		_unit addHeadgear "H_Booniehat_khk";
 
-		this addWeapon "rhs_weap_akms";
-		this addPrimaryWeaponItem "rhs_acc_dtkakm";
+		_unit addWeapon "rhs_weap_akms";
+		_unit addPrimaryWeaponItem "rhs_acc_dtkakm";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 		
 	};
 
 	case "rpk":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_Guerilla2_1";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		this addVest "V_TacVest_blk";
-		for "_i" from 1 to 2 do {this addItemToVest "hlc_45Rnd_762x39_m_rpk";};
-		this addItemToVest "hlc_75Rnd_762x39_m_rpk";
-		this addItemToVest "rhs_mag_rdg2_white";
-		this addHeadgear "H_Bandanna_khk";
+		_unit forceAddUniform "U_IG_Guerilla2_1";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		_unit addVest "V_TacVest_blk";
+		for "_i" from 1 to 2 do {_unit addItemToVest "hlc_45Rnd_762x39_m_rpk";};
+		_unit addItemToVest "hlc_75Rnd_762x39_m_rpk";
+		_unit addItemToVest "rhs_mag_rdg2_white";
+		_unit addHeadgear "H_Bandanna_khk";
 
-		this addWeapon "hlc_rifle_rpk";
+		_unit addWeapon "hlc_rifle_rpk";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 
 	};
 	
 	case "medic":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_Guerilla2_3";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_epinephrine";};
-		this addVest "V_TacVest_blk";
-		for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag";};
-		this addBackpack "B_TacticalPack_blk";
-		for "_i" from 1 to 2 do {this addItemToBackpack "ACE_bloodIV";};
-		for "_i" from 1 to 2 do {this addItemToBackpack "rhs_mag_rdg2_white";};
-		for "_i" from 1 to 10 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 10 do {this addItemToUniform "ACE_morphine";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_epinephrine";};
-		for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag";};
-		this addItemToBackpack "rhs_mag_rdg2_black";
-		this addHeadgear "H_Cap_oli";
+		_unit forceAddUniform "U_IG_Guerilla2_3";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_epinephrine";};
+		_unit addVest "V_TacVest_blk";
+		for "_i" from 1 to 4 do {_unit addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag";};
+		_unit addBackpack "B_TacticalPack_blk";
+		for "_i" from 1 to 2 do {_unit addItemToBackpack "ACE_bloodIV";};
+		for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_mag_rdg2_white";};
+		for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_morphine";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_epinephrine";};
+		for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag";};
+		_unit addItemToBackpack "rhs_mag_rdg2_black";
+		_unit addHeadgear "H_Cap_oli";
 
-		this addWeapon "rhs_weap_m4";
+		_unit addWeapon "rhs_weap_m4";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 
 	};
 	
 	case "shotgun":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_Guerilla2_2";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		this addVest "V_Chestrig_blk";
-		for "_i" from 1 to 5 do {this addItemToVest "rhsusf_8Rnd_00Buck";};
-		this addItemToVest "rhsusf_8Rnd_Slug";
-		this addHeadgear "H_Watchcap_camo";
+		_unit forceAddUniform "U_IG_Guerilla2_2";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		_unit addVest "V_Chestrig_blk";
+		for "_i" from 1 to 5 do {_unit addItemToVest "rhsusf_8Rnd_00Buck";};
+		_unit addItemToVest "rhsusf_8Rnd_Slug";
+		_unit addHeadgear "H_Watchcap_camo";
 
-		this addWeapon "rhs_weap_M590_8RD";
+		_unit addWeapon "rhs_weap_M590_8RD";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 
 	};
 	
 	case "ak74":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_Guerilla2_1";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		this addVest "V_Chestrig_blk";
-		for "_i" from 1 to 5 do {this addItemToVest "hlc_30Rnd_545x39_B_AK";};
-		this addItemToVest "hlc_30Rnd_545x39_t_ak";
-		this addItemToVest "rhs_mag_rgo";
-		this addItemToVest "rhs_mag_rdg2_white";
-		this addHeadgear "H_Shemag_olive";
+		_unit forceAddUniform "U_IG_Guerilla2_1";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		_unit addVest "V_Chestrig_blk";
+		for "_i" from 1 to 5 do {_unit addItemToVest "hlc_30Rnd_545x39_B_AK";};
+		_unit addItemToVest "hlc_30Rnd_545x39_t_ak";
+		_unit addItemToVest "rhs_mag_rgo";
+		_unit addItemToVest "rhs_mag_rdg2_white";
+		_unit addHeadgear "H_Shemag_olive";
 
-		this addWeapon "hlc_rifle_ak74_dirty";
+		_unit addWeapon "hlc_rifle_ak74_dirty";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 
 	};
 	
 	case "mosin":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_Guerilla3_1";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		for "_i" from 1 to 2 do {this addItemToUniform "rhs_mag_rdg2_white";};
-		this addVest "V_BandollierB_khk";
-		for "_i" from 1 to 7 do {this addItemToVest "rhsgref_5Rnd_762x54_m38";};
-		this addHeadgear "H_Shemag_olive";
+		_unit forceAddUniform "U_IG_Guerilla3_1";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "rhs_mag_rdg2_white";};
+		_unit addVest "V_BandollierB_khk";
+		for "_i" from 1 to 7 do {_unit addItemToVest "rhsgref_5Rnd_762x54_m38";};
+		_unit addHeadgear "H_Shemag_olive";
 
-		this addWeapon "rhs_weap_m38";
-		this addWeapon "Binocular";
+		_unit addWeapon "rhs_weap_m38";
+		_unit addWeapon "Binocular";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 
 	};
 	
 	case "skorpion":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_Guerilla1_1";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		for "_i" from 1 to 2 do {this addItemToUniform "rhs_mag_rgo";};
-		this addItemToUniform "rhs_mag_rdg2_white";
-		this addVest "V_Chestrig_oli";
-		for "_i" from 1 to 8 do {this addItemToVest "rhsgref_20rnd_765x17_vz61";};
-		this addItemToVest "rhsgref_10rnd_765x17_vz61";
-		this addHeadgear "H_Shemag_olive";
-		this addGoggles "Rev_Shades_clear";
+		_unit forceAddUniform "U_IG_Guerilla1_1";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "rhs_mag_rgo";};
+		_unit addItemToUniform "rhs_mag_rdg2_white";
+		_unit addVest "V_Chestrig_oli";
+		for "_i" from 1 to 8 do {_unit addItemToVest "rhsgref_20rnd_765x17_vz61";};
+		_unit addItemToVest "rhsgref_10rnd_765x17_vz61";
+		_unit addHeadgear "H_Shemag_olive";
+		_unit addGoggles "Rev_Shades_clear";
 
-		this addWeapon "rhs_weap_savz61";
+		_unit addWeapon "rhs_weap_savz61";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 
 	};
 	
 	case "lat":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_Guerrilla_6_1";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		this addVest "V_TacVest_blk";
-		for "_i" from 1 to 5 do {this addItemToVest "rhs_30Rnd_762x39mm";};
-		this addHeadgear "H_Bandanna_khk";
-		this addGoggles "G_Aviator";
+		_unit forceAddUniform "U_IG_Guerrilla_6_1";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		_unit addVest "V_TacVest_blk";
+		for "_i" from 1 to 5 do {_unit addItemToVest "rhs_30Rnd_762x39mm";};
+		_unit addHeadgear "H_Bandanna_khk";
+		_unit addGoggles "G_Aviator";
 
-		this addWeapon "rhs_weap_akm";
-		this addPrimaryWeaponItem "rhs_acc_dtkakm";
-		this addWeapon "rhs_weap_rpg26";
+		_unit addWeapon "rhs_weap_akm";
+		_unit addPrimaryWeaponItem "rhs_acc_dtkakm";
+		_unit addWeapon "rhs_weap_rpg26";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 
 	};
 	
 	case "fal":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_Guerilla1_1";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		for "_i" from 1 to 3 do {this addItemToUniform "rhs_mag_rgo";};
-		this addVest "V_BandollierB_blk";
-		for "_i" from 1 to 6 do {this addItemToVest "hlc_20Rnd_762x51_B_fal";};
-		this addItemToVest "hlc_20Rnd_762x51_T_fal";
-		this addHeadgear "H_Cap_oli";
-		this addGoggles "G_Shades_Blue";
+		_unit forceAddUniform "U_IG_Guerilla1_1";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		for "_i" from 1 to 3 do {_unit addItemToUniform "rhs_mag_rgo";};
+		_unit addVest "V_BandollierB_blk";
+		for "_i" from 1 to 6 do {_unit addItemToVest "hlc_20Rnd_762x51_B_fal";};
+		_unit addItemToVest "hlc_20Rnd_762x51_T_fal";
+		_unit addHeadgear "H_Cap_oli";
+		_unit addGoggles "G_Shades_Blue";
 
-		this addWeapon "hlc_rifle_FAL5000";
+		_unit addWeapon "hlc_rifle_FAL5000";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 
 	};
 	
 	case "sniper":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_leader";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		for "_i" from 1 to 4 do {this addItemToUniform "9Rnd_45ACP_Mag";};
-		this addVest "V_BandollierB_oli";
-		for "_i" from 1 to 3 do {this addItemToVest "rhs_mag_rdg2_white";};
-		for "_i" from 1 to 4 do {this addItemToVest "Cre8ive_Mag_CV_557_5Rnd";};
-		for "_i" from 1 to 2 do {this addItemToVest "Cre8ive_Mag_CV_557_5Rnd_Tracer_Red";};
-		this addHeadgear "H_Shemag_olive";
+		_unit forceAddUniform "U_IG_leader";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "9Rnd_45ACP_Mag";};
+		_unit addVest "V_BandollierB_oli";
+		for "_i" from 1 to 3 do {_unit addItemToVest "rhs_mag_rdg2_white";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "Cre8ive_Mag_CV_557_5Rnd";};
+		for "_i" from 1 to 2 do {_unit addItemToVest "Cre8ive_Mag_CV_557_5Rnd_Tracer_Red";};
+		_unit addHeadgear "H_Shemag_olive";
 
-		this addWeapon "Cre8ive_Rfl_CV_557";
-		this addPrimaryWeaponItem "optic_KHS_old";
-		this addWeapon "hgun_ACPC2_F";
+		_unit addWeapon "Cre8ive_Rfl_CV_557";
+		_unit addPrimaryWeaponItem "optic_KHS_old";
+		_unit addWeapon "hgun_ACPC2_F";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 
 	};
 	
 	case "pkm":
 	{
-		removeAllWeapons this;
-		removeAllItems this;
-		removeAllAssignedItems this;
-		removeUniform this;
-		removeVest this;
-		removeBackpack this;
-		removeHeadgear this;
-		removeGoggles this;
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeUniform _unit;
+		removeVest _unit;
+		removeBackpack _unit;
+		removeHeadgear _unit;
+		removeGoggles _unit;
 
-		this forceAddUniform "U_IG_leader";
-		for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
-		for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
-		this addItemToUniform "rhs_mag_rgo";
-		for "_i" from 1 to 2 do {this addItemToUniform "rhs_mag_rdg2_white";};
-		this addVest "V_TacVest_blk";
-		this addItemToVest "rhs_100Rnd_762x54mmR";
-		this addBackpack "rhs_sidor";
-		this addItemToBackpack "rhs_100Rnd_762x54mmR";
-		this addItemToBackpack "rhs_100Rnd_762x54mmR_green";
-		this addHeadgear "H_Booniehat_khk";
+		_unit forceAddUniform "U_IG_leader";
+		for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_fieldDressing";};
+		for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_morphine";};
+		_unit addItemToUniform "rhs_mag_rgo";
+		for "_i" from 1 to 2 do {_unit addItemToUniform "rhs_mag_rdg2_white";};
+		_unit addVest "V_TacVest_blk";
+		_unit addItemToVest "rhs_100Rnd_762x54mmR";
+		_unit addBackpack "rhs_sidor";
+		_unit addItemToBackpack "rhs_100Rnd_762x54mmR";
+		_unit addItemToBackpack "rhs_100Rnd_762x54mmR_green";
+		_unit addHeadgear "H_Booniehat_khk";
 
-		this addWeapon "rhs_weap_pkm";
+		_unit addWeapon "rhs_weap_pkm";
 
-		this linkItem "ItemMap";
-		this linkItem "ItemCompass";
-		this linkItem "ItemWatch";
-		this linkItem "ItemRadio";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "ItemWatch";
+		_unit linkItem "ItemRadio";
 
 	};
 	
