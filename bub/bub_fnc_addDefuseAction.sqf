@@ -18,7 +18,7 @@ _onBombDefuse =
 	_bomb, 
 	
 	[
-		"<t color='#FFFF88'>Defuse Dirty Bomb</t>", 
+		"<t color='#FFFF88'>Defuse Bomb</t>", 
 		_onBombDefuse,
 		nil, 
 		6, 

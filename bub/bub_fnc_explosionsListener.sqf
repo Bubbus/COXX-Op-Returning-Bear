@@ -1,3 +1,5 @@
+"exfil_babushka" setMarkerAlpha 0;
+
 waitUntil 
 {
 	sleep 1; 
@@ -7,6 +9,9 @@ waitUntil
 	(!isNil "_bombsExploded")
 	
 };
+
+
+"exfil_babushka" setMarkerAlpha 1;
 
 
 [] spawn 
