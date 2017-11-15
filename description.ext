@@ -530,27 +530,31 @@ class CfgFunctions
 			class addLaptopAction
 			{
 				file = "bub\bub_fnc_addLaptopAction.sqf"
-			}
+			};
 			class addDefuseAction
 			{
 				file = "bub\bub_fnc_addDefuseAction.sqf"
-			}
+			};
 			class makeGoBoom
 			{
 				file = "bub\bub_fnc_makeGoBoom.sqf"
-			}
+			};
 			class turnIntoBomb
 			{
 				file = "bub\bub_fnc_turnIntoBomb.sqf"
-			}
+			};
 			class explosionsListener
 			{
 				file = "bub\bub_fnc_explosionsListener.sqf"
-			}
+			};
 			class explosionCleanup
 			{
 				file = "bub\bub_fnc_explosionCleanup.sqf"
-			}
+			};
+			class attachMarkerRefs
+			{
+				file = "bub\bub_fnc_attachMarkerRefs.sqf"
+			};
 		}
 	}
 };
