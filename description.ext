@@ -555,6 +555,10 @@ class CfgFunctions
 			{
 				file = "bub\bub_fnc_attachMarkerRefs.sqf"
 			};
+			class createBombsTimer
+			{
+				file = "bub\bub_fnc_createBombsTimer.sqf"
+			};
 		}
 	}
 };
