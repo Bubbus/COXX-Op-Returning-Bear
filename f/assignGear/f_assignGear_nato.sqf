@@ -216,8 +216,8 @@ _DMriflemag = "rhs_10Rnd_762x54mmR_7N1";
 //_DMriflemag = "10Rnd_338_Mag";
 
 // Rifleman AT
-_RAT = "rhs_weap_rpg26";
-_RATmag = "rhs_weap_rpg26";
+_RAT = "launch_RPG32_F";
+_RATmag = "RPG32_F";
 
 // Medium AT
 _MAT = "rhs_weap_rpg7";
@@ -798,7 +798,6 @@ switch (_typeofUnit) do
 		for "_i" from 1 to 6 do {_unit addItemToBackpack "rhs_30Rnd_545x39_7N10_AK";};
 		_unit addItemToBackpack "rhs_mag_rdg2_white";
 		for "_i" from 1 to 3 do {_unit addItemToBackpack "rhs_mag_rgd5";};
-		_unit addItemToBackpack "rhs_rpg26_mag";
 		_unit addHeadgear "rhs_6b27m_digi";
 		_unit addGoggles "rhs_scarf";
 
@@ -1123,7 +1122,6 @@ switch (_typeofUnit) do
 		for "_i" from 1 to 9 do {_unit addItemToBackpack "hlc_75Rnd_762x39_AP_rpk";};
 		_unit addHeadgear "UNS_NVA_HG";
 		_unit addGoggles "SFG_Tac_BeardO";
-		_unit addItemToBackpack "rhs_rpg26_mag";
 
 		_unit addWeapon "hlc_rifle_rpk_75rnd";
 		_unit addPrimaryWeaponItem "rhs_acc_dtk1l";
@@ -1213,7 +1211,6 @@ switch (_typeofUnit) do
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "UK3CB_BAF_SmokeShell";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "UK3CB_BAF_SmokeShellBlue";};
 		for "_i" from 1 to 4 do {_unit addItemToBackpack "hlc_30Rnd_762x39_b_ak";};
-		_unit addItemToBackpack "rhs_rpg26_mag";
 		_unit addHeadgear "rhs_beret_vdv1";
 		_unit addGoggles "rhsusf_shemagh2_grn";
 
