@@ -559,6 +559,10 @@ class CfgFunctions
 			{
 				file = "bub\bub_fnc_createBombsTimer.sqf"
 			};
+			class startSirenSound
+			{
+				file = "bub\bub_fnc_startSirenSound.sqf"
+			};
 		}
 	}
 };
@@ -595,15 +599,13 @@ class Extended_DisplayUnload_EventHandlers {
 /*
 class CfgSounds
 {
-	sounds[] = {};
-	class wolf1
+	sounds[] = {"blowout_siren"};
+	
+	class blowout_siren
 	{
-		// how the sound is referred to in the editor (e.g. trigger effects)
-		name = "my_wolf_sound";
-		// filename, volume, pitch
-		sound[] = {"wolf1.ogg", 1, 1};
-		// subtitle delay in seconds, subtitle text
-		titles[] = {1, "*wolf growls*"};
+		name = "blowout_siren";
+		sound[] = {"\sound\blowout_siren.ogg", db+0, 1};
+		titles[] = {1, "*oh no a nuke*"};
 	};
 };
 */

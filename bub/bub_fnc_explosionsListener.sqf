@@ -1,5 +1,6 @@
 "exfil_babushka" setMarkerAlpha 0;
 
+
 waitUntil 
 {
 	sleep 1; 
@@ -25,7 +26,7 @@ waitUntil
 
 		_bombsExploded = missionNamespace getVariable "bombsExploded";
 		
-		_maxRadiation = _bgRadiationPerBomb * _bombsExploded;
+		_maxRadiation = (sqrt _bombsExploded) * 4 + 2.2;
 		_radIncrement = _maxRadiation / 360;
 		_curRads = missionNamespace getVariable "Cre8ive_BR_Strength";
 		

@@ -1073,10 +1073,14 @@ switch (_typeofUnit) do
 		_unit addItemToVest "UK3CB_BAF_MaxiKite";
 		for "_i" from 1 to 2 do {_unit addItemToVest "rhs_mag_9x18_8_57N181S";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
-		for "_i" from 1 to 12 do {_unit addItemToVest "rhs_5Rnd_338lapua_t5000";};
+		for "_i" from 1 to 11 do {_unit addItemToVest "rhs_5Rnd_338lapua_t5000";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "Chemlight_blue";};
 		for "_i" from 1 to 4 do {_unit addItemToVest "SmokeShell";};
-		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellBlue";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "SmokeShellBlue";};
+		_unit addBackpack "SOUP_Assault_Pack_PACT_KLMK";
+		_unit addItemToBackpack "ToolKit";
+		for "_i" from 1 to 10 do {_unit addItemToBackpack "rhs_5Rnd_338lapua_t5000";};
+		for "_i" from 1 to 3 do {_unit addItemToBackpack "rhs_mag_9x18_8_57N181S";};
 		_unit addHeadgear "SOUP_Boonie_KLMK";
 		_unit addGoggles "rhsusf_shemagh2_gogg_grn";
 
@@ -1093,6 +1097,7 @@ switch (_typeofUnit) do
 		_unit linkItem "ItemRadioAcreFlagged";
 		_unit linkItem "ItemGPS";
 		_unit linkItem "UK3CB_BAF_HMNVS";
+
 	};
 	
 	case "slav-ar":
@@ -1118,15 +1123,17 @@ switch (_typeofUnit) do
 		_unit addItemToVest "hlc_75Rnd_762x39_AP_rpk";
 		_unit addBackpack "SOUP_Carryall_PACT_KLMK";
 		_unit addItemToBackpack "rhs_acc_pso1m2";
-		_unit addItemToBackpack "ACE_bloodIV";
-		for "_i" from 1 to 9 do {_unit addItemToBackpack "hlc_75Rnd_762x39_AP_rpk";};
-		_unit addHeadgear "UNS_NVA_HG";
-		_unit addGoggles "SFG_Tac_BeardO";
+		for "_i" from 1 to 8 do {_unit addItemToBackpack "ACE_bloodIV";};
+		for "_i" from 1 to 26 do {_unit addItemToBackpack "ACE_fieldDressing";};
+		for "_i" from 1 to 20 do {_unit addItemToBackpack "ACE_epinephrine";};
+		for "_i" from 1 to 20 do {_unit addItemToBackpack "ACE_morphine";};
+		for "_i" from 1 to 5 do {_unit addItemToBackpack "hlc_75Rnd_762x39_AP_rpk";};
+		_unit addHeadgear "rhs_6b7_1m_olive";
+		_unit addGoggles "rhsusf_shemagh2_grn";
 
 		_unit addWeapon "hlc_rifle_rpk_75rnd";
 		_unit addPrimaryWeaponItem "rhs_acc_dtk1l";
 		_unit addPrimaryWeaponItem "rhs_acc_pkas";
-		_unit addWeapon "rhs_weap_rpg26";
 		_unit addWeapon "Laserdesignator";
 
 		_unit linkItem "ItemMap";

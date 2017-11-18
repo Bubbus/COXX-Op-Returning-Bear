@@ -20,7 +20,7 @@ if (!isServer) exitWith {};
 			[_hugeNode] spawn 
 			{
 				params ["_hugeNode"];
-				for "_rads" from 0 to 32 step 0.2 do
+				for "_rads" from 0 to 24 step 0.2 do
 				{
 					_hugeNode setVariable ["Cre8ive_RN_Strength", _rads, true];
 					sleep 1;
@@ -44,7 +44,12 @@ if (!isServer) exitWith {};
 			_gz_text setMarkerAlpha 1;
 			_gz_circle setMarkerAlpha 1;
 			
-			sleep (20 + random 10);
+			sleep 20;
+			
+			_siren = _x getVariable "siren";
+			[_siren, 20, 1000] call bub_fnc_startSirenSound;
+			
+			sleep random 10;
 		};		
 		
 	} foreach _bombs;
