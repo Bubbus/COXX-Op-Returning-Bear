@@ -596,19 +596,19 @@ class Extended_DisplayUnload_EventHandlers {
 // it will play until the file stops, Sounds cannot be interrupted
 // unless the object playing the sound is killed or otherwise destroyed.
 // Sound files can be played in 3D, and are an effect for volume purposes.
-/*
+
 class CfgSounds
 {
-	sounds[] = {"blowout_siren"};
-	
-	class blowout_siren
-	{
-		name = "blowout_siren";
-		sound[] = {"\sound\blowout_siren.ogg", db+0, 1};
-		titles[] = {1, "*oh no a nuke*"};
-	};
+    sounds[] = {"blowout_siren"};
+
+    class blowout_siren
+    {
+        name = "blowout_siren";
+        sound[] = {"sound\blowout_siren.ogg", db+0, 1};
+        titles[] = {0, ""};
+    };
 };
-*/
+
 // Custom Music - Can generally be stopped, but plays globally. Cannot be played in 3D
 // from an object but is affected by the Music volume slider.
 /*
