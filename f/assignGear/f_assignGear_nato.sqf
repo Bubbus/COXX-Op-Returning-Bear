@@ -1085,7 +1085,7 @@ switch (_typeofUnit) do
 		_unit addGoggles "rhsusf_shemagh2_gogg_grn";
 
 		_unit addWeapon "rhs_weap_t5000";
-		_unit addPrimaryWeaponItem "optic_LRPS";
+		_unit addPrimaryWeaponItem "optic_Nightstalker";
 		_unit addPrimaryWeaponItem "rhs_acc_harris_swivel";
 		_unit addWeapon "rhs_weap_pb_6p9";
 		_unit addHandgunItem "rhs_acc_6p9_suppressor";
