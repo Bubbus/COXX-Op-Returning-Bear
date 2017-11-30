@@ -17,7 +17,7 @@ _onLaptopInvestigate =
 	[
 		"<t color='#FFFFFF'>Investigate Commander's Laptop</t>
 <br/>
-<t color='#AAAAAA'>looks interesting dude</t>",
+<t color='#AAAAAA'>Still open, showing emails.</t>",
 
 		_onLaptopInvestigate,
 		nil, 

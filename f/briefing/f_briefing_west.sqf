@@ -32,7 +32,7 @@
 
 _cre = player createDiaryRecord ["diary", ["Credits","
 <br/>
-*** Insert mission credits here. ***
+Thanks to Cre8or for his help.
 <br/><br/>
 Made with F3 (http://www.ferstaberinde.com/f3/en/)
 "]];
@@ -44,7 +44,7 @@ Made with F3 (http://www.ferstaberinde.com/f3/en/)
 
 _adm = player createDiaryRecord ["diary", ["Administration","
 <br/>
-*** Insert information on administration and logistics here. ***
+This mission should be played with a Zeus, to keep the pace of the mission at an acceptable level.
 "]];
 
 // ====================================================================================
@@ -54,21 +54,8 @@ _adm = player createDiaryRecord ["diary", ["Administration","
 
 _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
-COMMANDER'S INTENT
+See Mission tab.  Execution of mission left to CO's discretion.
 <br/>
-*** Insert very short summary of plan here. ***
-<br/><br/>
-MOVEMENT PLAN
-<br/>
-*** Insert movement instructions here. ***
-<br/><br/>
-FIRE SUPPORT PLAN
-<br/>
-*** Insert fire support instructions here. ***
-<br/><br/>
-SPECIAL TASKS
-<br/>
-*** Insert instructions for specific units here. ***
 "]];
 
 // ====================================================================================
@@ -78,7 +65,26 @@ SPECIAL TASKS
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-*** Insert the mission here. ***
+SHF<br/>
+<br/>
+Potential locations of the rebel nuclear stockpile have been identified, and rebel forces have concentrated in these areas.<br/>
+SHF has been supplied with Geiger counters to locate the nuclear material by its radiation signature.<br/>
+<br/>
+> Assault each of the rebel stronghold towns, clearing them of all threat.<br/>
+> Use the Geiger counters to locate any nuclear material.<br/>
+> Report positions of any nuclear material to SLAV Team for disposal.<br/>
+<br/>
+<br/>
+SLAV Team<br/>
+<br/>
+The rebel forces have organized significantly, and all operations are orchestrated by a central command structure.<br/>
+If the nuclear material has been weaponized, the regular Soviet forces will be incapable of disarming it. However, enemy command has been located and surely possesses the relevant information.<br/>
+<br/>
+> Assault the enemy command compound, and eliminate all occupants.<br/>
+> Search for any intel regarding weaponization of nuclear material.<br/>
+> Report any findings to SHF Command. Execute any orders from SHF CO.<br/>
+> Support the SHF in locating and deactivating any nuclear devices.<br/>
+<br/>
 "]];
 
 // ====================================================================================
@@ -88,15 +94,17 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-*** Insert general information about the situation here.***
-<br/><br/>
-ENEMY FORCES
+The year is 1988, and the longstanding strength of the Soviet union is waning. Svitsyru smells the blood in the water, and its citizens have formed an organized resistance force.<br/>
+The Soviet union has responded to this threat with a permanent garrison in the region, the Svitsyru Holding Force (SHF). Tasked with discovering and eliminating the rebel threat wherever it arises, the SHF has met limited success in restoring control of the region to the state.<br/>
 <br/>
-*** Insert information about enemy forces here.***
-<br/><br/>
-FRIENDLY FORCES
+In recent months, the Svitsyran rebellion has grown more organized and has begun deploying armoured vehicles captured from an SHF vehicle pool earlier in the year.<br/>
+Reports have emerged that the rebels have also acquired refined nuclear material through an unidentified state actor, which could easily be used by the rebels to strike a devastating blow against the occupation. The Soviet regime is taking urgent steps to contain both the threat, and the news.<br/>
 <br/>
-*** Insert information about friendly forces here.***
+Acting fast, the Kremlin has authorized the urgent deployment of SLAV Team, a highly classified and specially trained unit of professional slavic operators. Trained in the harshest conditions and armed by a top-secret Future Weapons program, SLAV Team is Moscow's best chance to decapitate the rebellion and eliminate the nuclear threat.<br/>
+<br/>
+SHF Command has been briefed on the situation and the force is prepared to end the rebellion. SLAV Team arrived in Svitsyru the previous night and immediately went to work, completing its initial objective of destroying the rebels' hidden vehicle cache.<br/>
+Recovering from a long night of vodka and squatting, SLAV Team prepares to join the SHF in ending the rebellion.<br/>
+<br/>
 "]];
 
 // ====================================================================================
