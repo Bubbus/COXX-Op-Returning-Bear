@@ -1,7 +1,7 @@
 titleText 
 [
 	"<t color='#FFFFFF' shadow='2' shadowColor='#000000'>
-MEMO FROM COMMAND TO LT. VADIM<br/>
+MEMO FROM COMMAND TO LT. PIEROGI<br/>
 EYES ONLY<br/>
 <br/>
 DOOMSDAY PROTOCOL<br/>

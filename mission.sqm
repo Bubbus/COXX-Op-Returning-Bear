@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=2953;
+		nextID=2956;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=21;
+		nextID=22;
 	};
 	class Camera
 	{
-		pos[]={2017.0114,301.07516,6048.7432};
-		dir[]={-0.12649235,-0.76193124,0.63519031};
-		up[]={-0.14880961,0.64765877,0.74725825};
-		aside[]={0.98074561,0,0.19530651};
+		pos[]={411.04855,219.90207,1461.3002};
+		dir[]={-0.048914403,-0.53360003,0.84432977};
+		up[]={-0.030861208,0.84573525,0.53270859};
+		aside[]={0.99832952,6.5425411e-008,0.057836391};
 	};
 };
 binarizationWanted=0;
@@ -808,28 +808,28 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={363.13391,115.14991,1684.2451};
+				position[]={363.134,115.14985,1684.245};
 			};
 			name="F3_Zeus";
-			init="call{this addCuratorEditableObjects [(vehicles + allUnits),true];}";
+			init="call{this addCuratorEditableObjects [(vehicles + allUnits),true];" \n "this addAction [""Add unit-spawner to Zeus mode"", {execVM ""bub\zeus_ui\bub_fnc_zeusSpawnButtons.sqf"";}]}";
 			isPlayable=1;
 			id=793;
 			type="VirtualCurator_F";
-			atlOffset=47.122047;
+			atlOffset=47.122002;
 		};
 		class Item3
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={363.13391,115.14991,1604.2451};
+				position[]={363.134,115.14983,1604.245};
 			};
 			name="F3_Zeus_1";
-			init="call{this addCuratorEditableObjects [(vehicles + allUnits),true];}";
+			init="call{this addCuratorEditableObjects [(vehicles + allUnits),true];" \n "this addAction [""Add unit-spawner to Zeus mode"", {execVM ""bub\zeus_ui\bub_fnc_zeusSpawnButtons.sqf"";}];}";
 			isPlayable=1;
 			id=794;
 			type="VirtualCurator_F";
-			atlOffset=56.258068;
+			atlOffset=56.257999;
 		};
 		class Item4
 		{
@@ -15216,25 +15216,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -15249,6 +15230,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -18414,25 +18414,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -18447,6 +18428,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -21415,25 +21415,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -21448,6 +21429,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -22827,25 +22827,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -22860,6 +22841,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -24395,25 +24395,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -24428,6 +24409,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -27707,25 +27707,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -27740,6 +27721,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -38463,7 +38463,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1359.6626,343.45291,4760.4521};
-				angles[]={0,1.6730775,-0};
+				angles[]={0,1.6730775,0};
 			};
 			side="Empty";
 			flags=4;
@@ -38479,7 +38479,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={1359.2402,343.45001,4761.2456};
-				angles[]={0,5.288537,-0};
+				angles[]={0,5.288537,0};
 			};
 			side="Empty";
 			flags=4;
