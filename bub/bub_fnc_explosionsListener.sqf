@@ -26,7 +26,7 @@ waitUntil
 
 		_bombsExploded = missionNamespace getVariable "bombsExploded";
 		
-		_maxRadiation = (sqrt _bombsExploded) * 4 + 2.2;
+		_maxRadiation = (sqrt _bombsExploded) * 5 + 6.2;
 		_radIncrement = _maxRadiation / 360;
 		_curRads = missionNamespace getVariable "Cre8ive_BR_Strength";
 		

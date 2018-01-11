@@ -1,5 +1,6 @@
 params ["_laptop"];
 
+if (!isServer) exitWith {};
 
 _onFolderInvestigate = 
 {

@@ -1,5 +1,6 @@
 params ["_bomb"];
 
+if (!isServer) exitWith {};
 
 _onBombDefuse = 
 {
@@ -10,6 +11,17 @@ _onBombDefuse =
 	[_bomb, _actionId] remoteExec ["removeAction", 0];
 	
 	[[], "bub\bub_vm_cl_showDefuseText.sqf"] remoteExec ["execVM", _caller];
+	
+	
+	_bombName = _bomb getVariable ["bomb_name", ""];
+	_bombText = "Defused a nuke!";
+	
+	if (_bombName != "") then 
+	{
+		_bombText = format ["Defused the nuke in %1.", _bombName];
+	};
+	
+	["TaskSucceeded",["",_bombText]] remoteExec ["BIS_fnc_showNotification", -2];
 	
 };
 
