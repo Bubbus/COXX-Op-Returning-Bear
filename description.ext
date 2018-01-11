@@ -25,8 +25,8 @@ class Header
 // F3 - Loading Screen
 // Credits: Please see the F3 online manual (http://www.ferstaberinde.com/f3/en/)
 
-onLoadName = "Operation Defiant Bear";
-onLoadMission = "Expand motherland.";
+onLoadName = "Operation Returning Bear";
+onLoadMission = "If they can't have it, no-one can.";
 author = "Bubbus";
 loadScreen = "ca_logo_large.jpg";
 

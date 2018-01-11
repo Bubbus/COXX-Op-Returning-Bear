@@ -1344,28 +1344,42 @@ switch (_typeofUnit) do
 
 // CRATE: Medium, ammo for 1 squad
 	case "crate_med":
-{
+	{
 		clearWeaponCargoGlobal _unit;
 		clearMagazineCargoGlobal _unit;
 		clearItemCargoGlobal _unit;
 		clearBackpackCargoGlobal _unit;
-		_unit addMagazineCargoGlobal [_dmriflemag, 5];
-		_unit addMagazineCargoGlobal [_riflemag, 10];
-		_unit addMagazineCargoGlobal [_glriflemag, 20];
-		_unit addMagazineCargoGlobal [_armag, 15];
-		_unit addMagazineCargoGlobal [_carbinemag, 20];
-		_unit addMagazineCargoGlobal [_glmag, 20];
-		_unit addMagazineCargoGlobal [_glsmokewhite,16];
-		_unit addMagazineCargoGlobal [_ratmag, 6];
-		_unit addMagazineCargoGlobal [_grenade, 25];
-		_unit addMagazineCargoGlobal [_mgrenade, 25];
-		_unit addMagazineCargoGlobal [_smokegrenade, 25];
-		_unit addMagazineCargoGlobal [_smokegrenadegreen, 6];
+		_unit addMagazineCargoGlobal ["rhs_30Rnd_545x39_7N10_AK", 100];
+		_unit addMagazineCargoGlobal ["rhs_mag_rgd5", 20];
+		_unit addMagazineCargoGlobal ["rhs_mag_rdg2_white", 20];
+		_unit addMagazineCargoGlobal ["hlc_30Rnd_545x39_t_ak", 40];
+		_unit addMagazineCargoGlobal ["rhs_VOG25", 20];
+		_unit addMagazineCargoGlobal ["rhs_VG40TB", 10];
+		_unit addMagazineCargoGlobal ["rhs_GDM40", 2];
+		_unit addMagazineCargoGlobal ["hlc_GRD_White", 10];
+		_unit addMagazineCargoGlobal ["hlc_GRD_green", 4];
+		_unit addMagazineCargoGlobal ["hlc_GRD_orange", 4];
+		_unit addMagazineCargoGlobal ["rhs_100Rnd_762x54mmR", 10];
+		_unit addMagazineCargoGlobal ["rhs_rpg7_PG7V_mag", 10];
+		_unit addMagazineCargoGlobal ["rhs_rpg7_PG7VL_mag", 5];
+		_unit addMagazineCargoGlobal ["rhs_mag_9x18_8_57N181S", 10];
+		_unit addMagazineCargoGlobal ["rhs_10Rnd_762x54mmR_7N1", 30];
+		_unit addMagazineCargoGlobal ["hlc_75Rnd_762x39_AP_rpk", 10];
+		_unit addMagazineCargoGlobal ["rhs_5Rnd_338lapua_t5000", 10];
+
+		_unit addItemCargoGlobal ["ACRE_PRC343", 20];
+		_unit addItemCargoGlobal ["ACRE_PRC152", 5];
+		_unit addItemCargoGlobal ["ACE_bloodIV", 40];
+		_unit addItemCargoGlobal ["ACE_epinephrine", 20];
 		_unit addItemCargoGlobal ["ACE_fieldDressing", 100];
-		_unit addItemCargoGlobal ["ACE_morphine", 50];
-		_unit addItemCargoGlobal ["ACE_epinephrine", 25];
-		_unit addItemCargoGlobal ["ACE_bloodIV", 10];
-};
+		_unit addItemCargoGlobal ["ACE_morphine", 100];
+		_unit addItemCargoGlobal ["Laserbatteries", 1];
+
+		_unit addWeaponCargoGlobal ["rhs_weap_makarov_pm", 2];
+		_unit addWeaponCargoGlobal ["rhs_rpg_at", 1];
+		_unit addWeaponCargoGlobal ["rhs_weap_ak74m", 2];
+		_unit addWeaponCargoGlobal ["Laserdesignator", 2];
+	};
 
 // CRATE: Large, ammo for 1 platoon
 	case "crate_large":

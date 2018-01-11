@@ -8,22 +8,22 @@
 // NOTE TO CHANGE THE MARKER TEXT, IT IS NOW DONE INGAME BY EDITING THE GROUPS "CALLSIGN" (Or Groupid in game terms)
 // TO CHANGE THE NAME OF THE MEDICS, IT IS DONE BELOW AS "NORMAL"
 
-["GrpNATO_CO",_hq, "CO", "ColorYellow"] spawn f_fnc_localGroupMarker;
+["COMMISSAR",_hq, "COMMISSAR", "ColorYellow"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_COV",_ifv, "COV", "ColorYellow"] spawn f_fnc_localGroupMarker;
 
-["GrpNATO_ASL",_hq, "ASL", "ColorRed"] spawn f_fnc_localGroupMarker;
-["GrpNATO_A1",_ft, "A1", "ColorRed"] spawn f_fnc_localGroupMarker;
-["GrpNATO_A2",_ft, "A2", "ColorRed"] spawn f_fnc_localGroupMarker;
+["ANNA_SL",_hq, "ANNA-SL", "ColorRed"] spawn f_fnc_localGroupMarker;
+["ANNA_1",_ft, "ANNA-1", "ColorRed"] spawn f_fnc_localGroupMarker;
+["ANNA_2",_ft, "ANNA-2", "ColorRed"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_AV",_ifv, "AV", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-["GrpNATO_BSL",_hq, "BSL", "ColorBlue"] spawn f_fnc_localGroupMarker;
-["GrpNATO_B1",_ft, "B1", "ColorBlue"] spawn f_fnc_localGroupMarker;
-["GrpNATO_B2",_ft, "B2", "ColorBlue"] spawn f_fnc_localGroupMarker;
+["BORIS_SL",_hq, "BORIS-SL", "ColorBlue"] spawn f_fnc_localGroupMarker;
+["BORIS_1",_ft, "BORIS-1", "ColorBlue"] spawn f_fnc_localGroupMarker;
+["BORIS_2",_ft, "BORIS-2", "ColorBlue"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_BV",_ifv, "BV", "ColorBlue"] spawn f_fnc_localGroupMarker;
 
-["GrpNATO_CSL",_hq, "CSL", "ColorGreen"] spawn f_fnc_localGroupMarker;
-["GrpNATO_C1",_ft, "C1", "ColorGreen"] spawn f_fnc_localGroupMarker;
-["GrpNATO_C2",_ft, "C2", "ColorGreen"] spawn f_fnc_localGroupMarker;
+["CHARITON_SL",_hq, "CHARITON-SL", "ColorGreen"] spawn f_fnc_localGroupMarker;
+["CHARITON_1",_ft, "CHARITON-1", "ColorGreen"] spawn f_fnc_localGroupMarker;
+["CHARITON_2",_ft, "CHARITON-2", "ColorGreen"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_CV",_ifv, "CV", "ColorGreen"] spawn f_fnc_localGroupMarker;
 
 ["GrpNATO_MMG1",_sup, "MMG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
@@ -39,8 +39,8 @@
 ["GrpNATO_DT1",_rec, "DT1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_ENG1",_eng, "ENG1", "ColorOrange"] spawn f_fnc_localGroupMarker;
 
-["GrpNATO_IFV1",_ifv, "IFV1", "ColorOrange"] spawn f_fnc_localGroupMarker;
-["GrpNATO_IFV2",_ifv, "IFV2", "ColorOrange"] spawn f_fnc_localGroupMarker;
+["GOPNIK_1",_ifv, "GOPNIK-1", "ColorOrange"] spawn f_fnc_localGroupMarker;
+["GOPNIK_2",_ifv, "GOPNIK-2", "ColorOrange"] spawn f_fnc_localGroupMarker;
 ["GrpNATO_TNK1",_tnk, "TNK1", "ColorRed"] spawn f_fnc_localGroupMarker;
 
 ["GrpNATO_TH1",_hel, "TH1", "ColorRed"] spawn f_fnc_localGroupMarker;
@@ -54,7 +54,7 @@
 
 ["GrpNATO_AH1",_hel, "AH1", "ColorRed"] spawn f_fnc_localGroupMarker;
 
-["UnitNATO_CO_M",_med, "COM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
+["SLAV_TEAM",_sup, "Slav Team Sic", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
 ["UnitNATO_CO_DC",_hq, "DC", "ColorYellow"] spawn f_fnc_localSpecialistMarker;
 ["UnitNATO_CO_FAC",_hq, "FAC", "ColorYellow"] spawn f_fnc_localSpecialistMarker;
 ["UnitNATO_ASL_M",_med, "AM", "ColorBlack"] spawn f_fnc_localSpecialistMarker;
