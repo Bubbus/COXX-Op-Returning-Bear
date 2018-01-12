@@ -1,7 +1,5 @@
 params ["_laptop"];
 
-if (!isServer) exitWith {};
-
 _onFolderInvestigate = 
 {
 	params ["_target", "_caller"];
@@ -12,22 +10,25 @@ _onFolderInvestigate =
 
 
 
-[
-	_laptop, 
-	
+if (isServer) then
+{
 	[
-		"<t color='#FFFFFF'>Read Commander's Memo</t>
-<br/>
-<t color='#AAAAAA'>'COPY: Sent to Vadim.'</t>",
+		_laptop, 
+		
+		[
+			"<t color='#FFFFFF'>Read Commander's Memo</t>
+	<br/>
+	<t color='#AAAAAA'>'COPY: Sent to Vadim.'</t>",
 
-		_onFolderInvestigate,
-		nil, 
-		6, 
-		true, 
-		true, 
-		"", 
-		"true", 
-		2
-	]
-	
-] remoteExec ["addAction", 0];
+			_onFolderInvestigate,
+			nil, 
+			6, 
+			true, 
+			true, 
+			"", 
+			"true", 
+			2
+		]
+		
+	] remoteExec ["addAction", 0];
+};

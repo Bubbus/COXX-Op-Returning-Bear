@@ -1,7 +1,5 @@
 params ["_bomb"];
 
-if (!isServer) exitWith {};
-
 _onBombDefuse = 
 {
 	params ["_bomb", "_caller", "_actionId"];
@@ -21,27 +19,29 @@ _onBombDefuse =
 		_bombText = format ["Defused the nuke in %1.", _bombName];
 	};
 	
-	["TaskSucceeded",["",_bombText]] remoteExec ["BIS_fnc_showNotification", -2];
+	["TaskSucceeded",["",_bombText]] remoteExec ["BIS_fnc_showNotification", west];
 	
 };
 
 
-[
-	_bomb, 
-	
+if (isServer) then
+{
 	[
-		"<t color='#FFFF88'>Defuse Bomb</t>", 
-		_onBombDefuse,
-		nil, 
-		6, 
-		true, 
-		true, 
-		"", 
-		'"ACE_DefusalKit" in (items _this);', 
-		2
-	]
-	
-] remoteExec ["addAction", 0];
-
+		_bomb, 
+		
+		[
+			"<t color='#FFFF88'>Defuse Bomb</t>", 
+			_onBombDefuse,
+			nil, 
+			6, 
+			true, 
+			true, 
+			"", 
+			'"ACE_DefusalKit" in (items _this);', 
+			2
+		]
+		
+	] remoteExec ["addAction", 0];
+};
 
 		
