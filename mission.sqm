@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=31;
+		nextID=32;
 	};
 	class Camera
 	{
-		pos[]={17118.996,52.597057,11361.079};
-		dir[]={0.87216681,-0.43912908,0.21612634};
-		up[]={0.42627731,0.89841193,0.10563165};
-		aside[]={0.24054721,-4.1676685e-008,-0.97073543};
+		pos[]={21356.074,365.73499,7998.4292};
+		dir[]={-0.68592888,-0.33076879,0.64833218};
+		up[]={-0.2404258,0.9437027,0.22725026};
+		aside[]={0.6869837,-4.5693014e-007,0.726816};
 	};
 };
 binarizationWanted=0;
@@ -15716,25 +15716,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -15749,6 +15730,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -18990,25 +18990,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -19023,6 +19004,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -19728,7 +19728,7 @@ class Mission
 						angles[]={0,3.3777187,0};
 					};
 					side="East";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						init="call{[""sniper"",this] call f_fnc_assignGear;}";
@@ -19736,6 +19736,7 @@ class Mission
 					};
 					id=1877;
 					type="O_Soldier_A_F";
+					atlOffset=6.9302521;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19808,7 +19809,7 @@ class Mission
 					};
 					showWP="NEVER";
 					id=1878;
-					atlOffset=0.5;
+					atlOffset=7.4302521;
 					class AttachedTo
 					{
 						id=1877;
@@ -19820,6 +19821,7 @@ class Mission
 			{
 			};
 			id=1876;
+			atlOffset=6.9302521;
 		};
 		class Item408
 		{
@@ -19918,7 +19920,7 @@ class Mission
 					};
 					showWP="NEVER";
 					id=1883;
-					atlOffset=0.49995422;
+					atlOffset=6.0200005;
 					class AttachedTo
 					{
 						id=1882;
@@ -21771,25 +21773,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -21804,6 +21787,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -21950,7 +21952,7 @@ class Mission
 			position[]={20723.936,266.12772,6702.7017};
 			name="townnw_south_1";
 			type="Empty";
-			angle=228.33047;
+			angle=228.33046;
 			id=1937;
 			atlOffset=225.61285;
 		};
@@ -23267,25 +23269,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -23300,6 +23283,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -23434,7 +23436,7 @@ class Mission
 			position[]={20627.572,-36.497437,8866.8164};
 			name="portcity3_east_1";
 			type="Empty";
-			angle=110.25603;
+			angle=110.25602;
 			id=1975;
 			atlOffset=-71.422173;
 		};
@@ -23459,6 +23461,7 @@ class Mission
 				sizeA=10;
 				sizeB=10;
 				activationBy="ANYPLAYER";
+				isServerOnly=1;
 			};
 			id=1979;
 			type="EmptyDetectorAreaR50";
@@ -23629,25 +23632,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -23662,6 +23646,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -26878,25 +26881,6 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="RN_Strength";
-					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
 					property="RN_RadiusOutside";
 					expression="_this setVariable ['Cre8ive_RN_RadiusOutside',_value];";
 					class Value
@@ -26911,6 +26895,25 @@ class Mission
 								};
 							};
 							value=200;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="RN_Strength";
+					expression="_this setVariable ['Cre8ive_RN_Strength',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
 						};
 					};
 				};
@@ -38478,7 +38481,7 @@ class Mission
 						angles[]={0,4.5940914,0};
 					};
 					side="East";
-					flags=3;
+					flags=7;
 					class Attributes
 					{
 						init="call{[""sniper"",this] call f_fnc_assignGear;}";
@@ -38486,7 +38489,6 @@ class Mission
 					};
 					id=3056;
 					type="O_Soldier_A_F";
-					atlOffset=5.41642;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -38552,14 +38554,14 @@ class Mission
 				class Item1
 				{
 					dataType="Waypoint";
-					position[]={20366.281,69.973,11702.271};
+					position[]={20366.281,69.973007,11702.271};
 					type="Hold";
 					class Effects
 					{
 					};
 					showWP="NEVER";
 					id=3057;
-					atlOffset=0.49999237;
+					atlOffset=0.5;
 					class AttachedTo
 					{
 						id=3056;
@@ -38571,7 +38573,6 @@ class Mission
 			{
 			};
 			id=3055;
-			atlOffset=5.41642;
 		};
 		class Item645
 		{
